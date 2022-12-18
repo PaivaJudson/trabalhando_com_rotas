@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom';
 
-function Home() {
+function Contacto() {
     return (
       <div>
-        <h1>Bem-vindo a Pagina Home</h1>
+        <h1>Bem-vindo a Pagina Contacto</h1>
         <span>Judson Paiva</span> <br />
 
         <Link to='/'>Home</Link>
@@ -14,4 +14,4 @@ function Home() {
     );
   }
   
-  export default Home;
+  export default Contacto;
